@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+#emp_nav {
+    width:800px;
+    text-align: left;
+    padding:5px 10px;
+    border-top:1px solid;
+    margin:20px 0px;
+}
+
+#emp_nav nav {
+    border-top:15px solid #000;
+    border-bottom:2px solid #fffc00;
+    background:#000;
+}
+
+#emp_nav nav ul {
+    overflow:hidden;
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    max-width: 800px;
+}
+
+#emp-nav nav li {
+    box-sizing: border-box;
+    float:left;
+    border-right: 1px solid #000;
+    width:25%;
+}
+
+#emp_nav nav li:last-child {
+    border-right: 0;
+}
+
+#emp_nav nav a {    
+    color:#fff;
+    text-decoration:none;
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    text-align:center;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#emp_nav nav a:hover {
+    color:#000000;
+    background: #fffc00;
+}
+
+#emp_nav .current {
+    color:#000000;
+    background: #fffc00;
+}
