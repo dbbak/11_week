@@ -1,5 +1,13 @@
 h1 {
     text-align: center;
+    color: #ffffff;
+    border: solid;
+    border-radius: 20px 20px 0 0;
+    width: 800px;
+    background: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 #emp_nav {
@@ -7,51 +15,48 @@ h1 {
     text-align: left;
     padding:5px 10px;
     border-top:1px solid;
-    margin:20px 0px;
+    margin:20px 0;
 }
 
-#emp_nav nav {
-    border-top:15px solid #000;
-    border-bottom:2px solid #fffc00;
-    background:#000;
+#emp_nav nav{
+    border-top: 15px solid #000;
+    border-bottom: 2px solid #fffc00;
+    background: #000;
 }
 
-#emp_nav nav ul {
+#emp_nav nav ul{
     overflow:hidden;
-    list-style:none;
+    list-style: none;
     margin:0 auto;
     padding:0;
-    max-width: 800px;
+    max-width:800px;
 }
 
-#emp-nav nav li {
+#emp_nav nav li{
     box-sizing: border-box;
     float:left;
     border-right: 1px solid #000;
-    width:25%;
+    width:25%
 }
-
-#emp_nav nav li:last-child {
+#emp_nav nav li:last-child{
     border-right: 0;
 }
-
-#emp_nav nav a {    
+#emp_nav nav a{
     color:#fff;
-    text-decoration:none;
+    text-decoration: none;
     display: block;
-    padding: 10px 0;
-    width: 100%;
-    text-align:center;
+    padding:10px 0;
+    width:100%;
+    text-align: center;
     font-size: 16px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 0 0 
+}
+#emp_nav nav a:hover{
+    background: #fffc00;
+    color:#000;
 }
 
-#emp_nav nav a:hover {
-    color:#000000;
+#emp_nav .current{
     background: #fffc00;
-}
-
-#emp_nav .current {
-    color:#000000;
-    background: #fffc00;
+    color:#000;
 }
